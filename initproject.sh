@@ -20,21 +20,17 @@ echo "Installing dependencies..."
 sudo npm install
 
 echo "Doing initial build..."
-coffee -c **/*.coffee
-jade -P **/*.jade
-lessc public/stylesheets/styles.less public/stylesheets/styles.css
+coffee -c ./**/*.coffee
+jade -P ./views/*.jade
+stylus ./public/stylesheets/*.styl
 
-# leave it up to the developer to make changes before adding/commiting
+# leave it up to the developer to make changes before adding/committing
 echo "Initializing a git repo, but NOT adding or committing anything..."
 git init
 
 echo "Cleaning up..."
 
-rm -rf .git
-rm -rf templates
-rm -rf bootstrap
-rm README.md
-rm initproject.sh
-rm bootstrap.zip
+rm -rf .git/ templates/ bootstrap/
+rm README.md initproject.sh bootstrap.zip
 
 echo "All done! Feel free to make changes to what's here before making your first commit."
