@@ -11,7 +11,7 @@ Bootstrap Express is a way to get started quickly with your Express app. Comes p
 * Mongoose
 * Twitter Bootstrap
 
-To start a project:
+To start a project, you'll need to install node (npm is installed when you install node), and do:
     
     git clone https://github.com/carlodicelico/bootstrap-express.git mynewproject
     cd mynewproject
