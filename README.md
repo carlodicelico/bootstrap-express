@@ -2,7 +2,7 @@
 
 ### *Inspired by [Rob Righter's Node Boilerplate Version 2](https://github.com/robrighter/node-boilerplate)*
 
-Node Bootstrap is a way to get started quickly with your Express app. Comes pre-configured with:
+Bootstrap Express is a way to get started quickly with your Express app. Comes pre-configured with:
 * Express
 * Socket.io
 * Jade
