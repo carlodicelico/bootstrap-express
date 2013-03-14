@@ -9,6 +9,7 @@ Node Bootstrap is a way to get started quickly with your Express app. Comes pre-
 * Stylus
 * Coffeescript
 * Mongoose
+* Twitter Bootstrap
 
 To start a project:
     
