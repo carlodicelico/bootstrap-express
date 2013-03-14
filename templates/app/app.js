@@ -5,17 +5,17 @@
 
 var connect = require('connect')
   , express = require('express')
-  , routes = require('./routes')
-  , user = require('./routes/user')
-  , http = require('http')
-  , path = require('path');
+  , routes  = require('./routes')
+  , user    = require('./routes/user')
+  , http    = require('http')
+  , path    = require('path');
 
 // Express
 var app = express();
 
 // Socket.io
 var server = http.createServer(app)
-  , io = require('socket.io').listen(server);
+  , io     = require('socket.io').listen(server);
 
 app.configure(function(){
   app.set('port', process.env.PORT || 3000);

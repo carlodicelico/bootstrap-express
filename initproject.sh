@@ -17,7 +17,7 @@ cp -v ./bootstrap/css/*.min.css ./public/stylesheets/
 cp -v ./bootstrap/js/*.min.js ./public/javascripts/
 
 echo "Installing dependencies..."
-sudo npm install
+npm install
 
 echo "Doing initial build..."
 coffee -c ./**/*.coffee
@@ -31,6 +31,6 @@ git init
 echo "Cleaning up..."
 
 rm -rf .git/ templates/ bootstrap/
-rm README.md initproject.sh bootstrap.zip
+rm initproject.sh bootstrap.zip
 
 echo "All done! Feel free to make changes to what's here before making your first commit."
