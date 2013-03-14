@@ -1,4 +1,4 @@
-# Node Bootstrap
+# Bootstrap Express
 
 ### *Inspired by [Rob Righter's Node Boilerplate Version 2](https://github.com/robrighter/node-boilerplate)*
 
@@ -13,7 +13,7 @@ Node Bootstrap is a way to get started quickly with your Express app. Comes pre-
 
 To start a project:
     
-    git clone https://github.com/carlodicelico/node-bootstrap.git mynewproject
+    git clone https://github.com/carlodicelico/bootstrap-express.git mynewproject
     cd mynewproject
     ./initproject.sh
 This will set up a new Express project with Stylus and sessions support, integrate Twitter Bootstrap, and initialize a git repo for you. 
